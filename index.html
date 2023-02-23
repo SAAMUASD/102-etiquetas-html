@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header center">
+      <nav class="nav sp-btwn">
+          <div class="nav_img">
+            <img src="img/logo2-copia.jpg" alt="logo">
+          </div>
+          <div class="nav_links center">
+            <ul class="nav_links-ul sp-btwn">
+              <li><a href="#Metadatos">Metadatos</a></li>
+                <li><a href="#Secciones">Secciones</a></li>
+                <li><a href="#Contenido">Contenido</a></li>
+                <li><a href="#Multimedia">Multimedia</a></li>
+                <li><a href="#Texto">Texto</a></li>
+                <li><a href="#Listas">Listas</a></li>
+                <li><a href="#Tablas">Tablas</a></li>
+                <li><a href="#Formularios">Formularios</a></li>
+                <li><a href="#Otras">Otras</a></li>
+              </ul>
+            </div>
+      </nav>
+  </header>
+  <div class="container sp-btwn p">
+    <div class="container_left center">
+      <pre class="prevent-select">
+        <span>
+1 &lt;!DOCTYPE html &gt;
+2 &lt;html &gt;
+3  &lt;body &gt;
+4    &lt;ul &gt;
+5      &lt;li &gt;First&lt; /li&gt;
+6      &lt;li &gt;Second&lt; /li&gt;
+7      &lt;li &gt;Third&lt; /li&gt;
+8    &lt; /ul&gt;
+9  &lt; /body&gt;
+10  &lt; /html&gt;
+      </span>
+      </pre>
+      <div class="container_left-btn">
+        <a href="https://www.mclibre.org/consultar/htmlcss/html/html-etiquetas.html" target="_blank"><button class="btn">LINKS<span>&#8594;</span></button></a>
+      </div>
+    </div>
+    <div class="container_right center">
+      <div class="container_right-back center">
+        <span class="prevent-select"><strong>102</strong></span> 
+      </div>
+      <h1 class="prevent-select">Aprendamos<br> 
+      etiquetas <b>html</b></h1>
+    </div>
+  </div>
+  <section class="definition p">
+    <div class="titulo">
+      <span>Etiquetas</span>
+      <h1>Raíz</h1>
+    </div>
+      <div class="definition_col">
+        <h2>1. !DOCTYPE</h2>
+      <span><strong>Indica el tipo de documento</strong> <br> <br>Usamos, por ejemplo, !DOCTYPE html para indicar que se trata de un documento html y por ende saber qué sintaxis y gramática utiliza su código fuente.</span>
+    </div>
+    <div class="definition_col">
+      <h2>2. html</h2>
+    <span><strong>Engloba todo el documento</strong> <br> <br>Usamos esta etiqueta para englobar nuestro codigo html.</span>
+  </div>
+  <div class="definition_col">
+    <h2>3. Comentario</h2>
+  <span><strong>Sólo visible en el código fuente</strong> <br> <br>Usamos esta etiqueta para hacer comentarios en el codigo.</span>
+</div>
+  </section>
+  <section class="banner p center" id="Metadatos">
+    <div class="titulo">
+      <h1 class="prevent-select">Metadatos</h1>
+    </div>
+    <div class="banner_cards">
+      <div class="banner_cards-item">
+          <span class="subt">4. head</span>
+          <div class="banner_def">
+            <span>
+              Delimita el encabezado del documento	
+            </span>
+            <small>&lt;head&gt;&lt;title&gt;mi head &lt; /title&gt; &lt; /head&gt;</small>
+          </div>
+      </div>
+      <div class="banner_cards-item">
+        <span class="subt">5. meta</span>
+        <div class="banner_def">
+          <span>
+            metainformación sobre el documento
+          </span>
+          <small>&lt;meta charset="UTF-8"/&gt;</small>
+        </div>
+      </div>
+      <div class="banner_cards-item">
+        <span class="subt">6. title</span>
+        <div class="banner_def">
+          <span>
+            título del documento
+          </span>
+          <small>&lt;title&gt;mi titulo &lt; /title&gt;</small>
+        </div>
+      </div>
+      <div class="banner_cards-item">
+        <span class="subt">7. link</span>
+        <div class="banner_def">
+          <span>
+            enlace a otros archivos
+          </span>
+          <small>&lt;link rel="stylesheet" href="style.css"/&gt;</small>
+        </div>
+      </div>
+      <div class="banner_cards-item">
+        <span class="subt">8. style</span>
+        <div class="banner_def">
+          <span>
+            hoja de estilo incluida en el documento
+          </span>
+          <small>&lt;style&gt;h1{color: purple;}&lt;/style&gt;</small>
+        </div>
+      </div>
+  </div>
+  </section>
+  <section class="cards" id="Secciones">
+    <div class="titulo">
+      <h1>Secciones</h1>
+    </div>
+    <div class="grid_container p">
+      <div class="col">
+        <span>9. body</span>
+        <p>delimita el cuerpo del documento</p>
+        <small>&lt;body&gt;mi contenido &lt; /body&gt;</small>
+      </div>
+      <div class="col">
+        <span>10. section</span>
+        <p>La etiqueta section está pensada para agrupar los apartados del contenido principal del documento</p>
+        <small>&lt;section&gt;mi seccion &lt; /section&gt;</small>
+      </div>
+      <div class="col">
+        <span>11. article</span>
+        <p>La etiqueta article está pensada para agrupar el contenido de la página que forma una unidad en sí misma desde el punto de vista temático.</p>
+        <small>&lt;article&gt;&lt;
+          h1&gt;Google&lt;/h1&gt;
+          &lt;p&gt;informacion...&lt;/p&gt;
+          &lt;/article&gt;</small>
+      </div>
+      <div class="col">
+        <span>12. nav</span>
+        <p>La etiqueta nav está pensada para agrupar los enlaces a otras páginas o los enlaces a los apartados de la propia página.</p>
+        <small>&lt;nav&gt;
+          &lt;ul&gt;
+            &lt;li&gt;Inicio&lt;/li&gt;
+          &lt;/ul&gt;
+          &lt;/nav&gt;</small>
+      </div>
+      <div class="col">
+        <span>13. aside</span>
+        <p>La etiqueta aside está pensada para agrupar contenido secundario y tangencial al contenido al que acompaña (por ejemplo, un bloque de anuncios, un grupo de enlaces externos relacionados, una cita del texto). </p>
+      </div>
+      <div class="col">
+        <span>14. h1 - h6</span>
+        <p>Las etiquetas h1, h2, h3, h4, h5 y h6 están pensadas para marcar los títulos y subtítulos de los apartados de un documento.
+        </p>
+        <small>&lt;h1&gt;mi encabezado &lt; /h1&gt;</small>
+      </div>
+      <div class="col">
+        <span>15. header</span>
+        <p>Representa un grupo de ayudas introductorias o de navegación.</p>
+        <small>&lt;header&gt;
+          &lt;nav&gt;
+          &lt;ul&gt;
+            &lt;li&gt;Inicio&lt;/li&gt;
+          &lt;/ul&gt;
+          &lt;/nav&gt;
+          &lt; /header&gt;</small>
+      </div>
+      <div class="col">
+        <span>16. footer</span>
+        <p>La etiqueta footer está pensada para contener información general sobre el documento, información que se suele poner al final del documento: autor, direcciones de contacto, etc.</p>
+        <small>&lt;footer&gt;
+          &lt;a href="link" &gt;Twitter&lt; /a&gt;
+          &lt; /footer&gt;</small>
+      </div>
+      <div class="col">
+        <span>17. address</span>
+        <p>La etiqueta address está pensada para contener información de contacto del autor de la información (dirección de correo, teléfono, etc.), pero no otro tipo de información.</p>
+        <small>&lt;address&gt; puedes contactarme al 809-123-4567 &lt; /address&gt;</small>
+      </div>
+    </div>
+  </section>
+  <section class="cards" id="Contenido">
+    <div class="titulo">
+      <h1>Contenido</h1>
+    </div>
+    <div class="grid_container p">
+      <div class="col">
+        <span>18. p</span>
+        <p>parrafo</p>
+        <small>&lt;p&gt;mi parrafo va aqui &lt; /p&gt;</small>
+      </div>
+      <div class="col">
+        <span>19. hr</span>
+        <p>Separador</p>
+        <small>&lt;p&gt;un parafo &lt; /p&gt;
+          &lt;hr&gt;
+          &lt;p&gt;otro parafo &lt; /p&gt;
+        </small>
+      </div>
+      <div class="col">
+        <span>20. div</span>
+        <p>Define una división. Esta etiqueta permite agrupar varios elementos de bloque (párrafos, encabezados, listas, tablas, divisiones, etc). </p>
+      </div>
+      <div class="col">
+        <span>21. blockquote</span>
+        <p>Está pensada para identificar una cita larga, que puede contener varios párrafos u otras etiquetas.</p>
+        <small>&lt;blockquote&gt;
+          &lt;p&gt;
+            &lt;Antiguamente eran las universidades independientes entre sí, y hasta del Gobierno mismo: cada cual tenía su régimen, sus estudios, sus métodos y aun sus pretensiones distintas: no sólo disponían arbitrariamente de sus fondos, sino que hasta era también arbitraria en ellas la enseñanza.&gt;
+          &lt;/p&gt;
+          &lt;/blockquote&gt;</small>
+      </div>
+      <div class="col">
+        <span>22. pre</span>
+        <p>Se utiliza cuando se quiere conservar los espacios en blanco, los saltos de línea y los tabuladores del texto original. Las etiwuetas html que he mostrado fueron utilizando esta etiqueta.</p>
+      </div>
+      <div class="col">
+        <span>23. main</span>
+        <p>Se utiliza para agrupar el contenido principal de una página, sin incluir los elementos comunes a otras páginas como bloques de navegación, información general del sitio, etc..
+        </p>
+      </div>
+      <div class="col">
+        <span>24. figure</span>
+        <p>Muestra una ilustracion.</p>
+      </div>
+      <div class="col">
+        <span>25. figcaption</span>
+        <p>representa un subtítulo o leyenda asociado al contenido del elemento padre figure , pudiendo ser colocado como primer o último hijo..</p>
+      </div>
+    </div>
+  </section>
+  <section class="definition p" id="Multimedia">
+    <div class="titulo">
+      <span>Contenido</span>
+      <h1>Multimedia</h1>
+    </div>
+      <div class="definition_col">
+        <h2>26. picture</h2>
+      <span><br>Es un contenedor usado para especificar múltiples elementos source y un elemento img contenido en él para proveer versiones de una imagen para diferentes escenarios de dispositivos.</span>
+      <div class="definition_col-img" style="margin-top: 35px;">
+        <picture>
+          <source srcset="img/picture.jpg" media="(min-width: 600px)">
+          <img src="img/picture.jpg">
+         </picture>
+      </div>
+    </div>
+    <div class="definition_col">
+      <h2>27. img</h2>
+    <span><strong>Nos permite insertar imagenes.</strong> <br> <br></span>
+    <div class="definition_col-img">
+      <img src="img/img.png">
+    </div>
+  </div>
+  <div class="definition_col">
+    <h2>28. iframe</h2>
+  <span>Permite insertar un documento html dentro de otro.</span>
+</div>
+<div class="definition_col">
+  <h2>29. embed</h2>
+<span>Provee los medios para insertar acplicaciones externas, típicamente aquellas que requieren un plugin, en el documento.</span>
+</div>
+<div class="definition_col">
+  <h2>30. object</h2>
+<span>Permite insertar cualquier tipo de documentos (no solamente de texto) dentro de un documento html. Para poder mostrar esos archivos, el navegador suele necesitar plug-ins.</span><br>
+<span>Ejemplo: </span><br>
+  <object
+  type="text/html"
+  data="ejemplo-object.html"
+  style="width: 400px; height:200px;">
+  ERROR (no puede mostrarse el objeto)
+</object>
+</div>
+<div class="definition_col">
+  <h2>31. video</h2>
+<span><strong>Nos permite insertar videos.</strong></span>
+  <video src="img/y2mate.com - The Pink Panther in Pink Blue Plate_480p.mp4" muted autoplay style="height: 450px; margin-top: 15px;"></video>
+</div>
+<div class="definition_col">
+  <h2>32. audio</h2>
+<span><strong>Nos permite insertar audios.</strong> <br> <br></span>
+<div class="definition_col-img">
+  <audio controls>
+    <source src="img/y2mate.com - Love On The Brain.mp3" type="audio/mp3">
+</audio>
+</div>
+</div>
+<div class="definition_col">
+  <h2>33. track</h2>
+<span>Se utiliza como elemento hijo de los elementos multimedia, audio y video. Le permite especificar pistas de texto cronometradas (o datos basados en el tiempo), por ejemplo, para manejar subtítulos automáticamente. </span>
+</div>
+<div class="definition_col">
+  <h2>34. map</h2>
+<span>Nos permite insertar imagenes con areas a las que podemos dar click. Dichas areas nos pueden llevar a otra seccion.</span>
+<span>Da clic sobre la imagen</span>
+<div class="definition_col-img">
+  <img src="img/workplace.jpg" alt="Workplace" usemap="#workmap" style="margin-top: 35px;">
+  <map name="workmap">
+    <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.html">
+  </map>
+</div>
+</div>
+<div class="definition_col">
+  <h2>35. area</h2>
+<span>El elemento HTML area define un sector o área en un mapa de imagen.</span>
+</div>
+  </section>
+  <section class="cards" style="background: #F2F2F2;" id="Texto">
+    <div class="titulo">
+      <h1>Texto (en linea)</h1>
+    </div>
+    <div class="grid_container p">
+      <div class="col">
+        <span>36. br</span>
+        <p>Con esta etiqueta podemos insertar saltos de linea. <br> <br>Acabo de hacer un salto de linea, justo ahora.</p>
+      </div>
+      <div class="col">
+        <span>37. a</span>
+        <p><strong>Etiqueta de hiperenlace.</strong> Nos permite crear enlaces a otras paginas, archivos o ubicaciones dentro de la misma pagina. <br> El menu <a href="">nav</a> esta elaborado con esta etiqueta.</p>
+      </div>
+      <div class="col">
+        <span>38. span</span>
+        <p>Contenedor de texto genérico</p>
+        <span>Esto fue escrito con la etiqueta span</span>
+      </div>
+      <div class="col">
+        <span>39. strong</span>
+        <p>Etiqueta usada para resaltar texto <strong>importante</strong></p>
+      </div>
+      <div class="col">
+        <span>40. em</span>
+        <p>Enfasis.</p>
+        <p>Es la <em>última</em> vez que te lo digo.</p>
+      </div>
+      <div class="col">
+        <span>41. sub</span>
+        <p>Etiqueta para <sub>subíndice</sub>
+        </p>
+      </div>
+      <div class="col">
+        <span>41. sup</span>
+        <p>Etiqueta para <sup>superíndice</sup></p>
+      </div>
+      <div class="col">
+        <span>42. abbr</span>
+        <p>Etiqueta para abreviatura. <br> Pase el mouse sobre abreviatura. <abbr title="abreviatura">abrev.</abbr></p>
+      </div>
+      <div class="col">
+        <span>43. b</span>
+        <p>Etiqueta para dar atencion a una <b>palabra</b></p>
+      </div>
+      <div class="col">
+        <span>44. cite</span>
+        <p>Etiqueta para citas de una obra.</p>
+        <p><cite> Frank Herbert </cite> dijo: "El misterio de la vida no es un problema a resolver, sino una realidad a experimentar"</p>
+      </div>
+      <div class="col">
+        <span>45. data</span>
+        <p>Está pensada para incluir en su atributo value la misma información que el texto, pero en un formato legible para máquinas..</p>
+      </div>
+      <div class="col">
+        <span>46. dfn</span>
+        <p>Está pensada para identificar dónde se define un término en un texto.</p>
+        <p>Un <dfn>byte</dfn> son ocho bits.</p>
+      </div>
+      <div class="col">
+        <span>47. kbd</span>
+        <p>Está pensada para identificar pulsaciones de teclas o texto tecleado por el usuario.</p>
+        <p>En los navegadores, pulsando <kbd>Ctrl+t</kbd> se abre una nueva pestaña.</p>
+      </div>
+      <div class="col">
+        <span>48. i</span>
+        <p>Está pensada para identificar texto con un significado especial, como nombres de especies, términos técnicos, expresiones extranjeras, etc.</p>
+        <p>El nombre científico del perro 
+          es <i>canis lupus</i>.</p>
+      </div>
+      <div class="col">
+        <span>49. mark</span>
+        <p>Está pensada para resaltar una porción de texto que originalmente no estaba resaltada, pero que en el contexto actual se quiere resaltar.</p>
+        <p>La primera frase de la recomendación HTML 5 es <q>The World Wide Web's markup language has <mark>always</mark> been HTML</q>.</p>
+      </div>
+      <div class="col">
+        <span>50. q</span>
+        <p>Está pensada para identificar una cita o referencia a otras fuentes.</p>
+        <p>Como escribió Robert Browning, <q>The best is yet to be</q>.</p>
+      </div>
+      <div class="col">
+        <span>50. q</span>
+        <p>Está pensada para identificar una cita o referencia a otras fuentes.</p>
+        <p>Como escribió Robert Browning, <q>The best is yet to be</q>.</p>
+      </div>
+      <div class="col">
+        <span>51. s</span>
+        <p>Está está pensada para indicar que se trata de información secundaria, es decir lo que se suele llamar letra pequeña.</p>
+        <p>PVP: 999€ <small>(IVA no incluido)</small>.</p>
+      </div>
+      <div class="col">
+        <span>52. small</span>
+        <p>Está pensada para identificar una cita o referencia a otras fuentes.</p>
+        <p>Como escribió Robert Browning, <q>The best is yet to be</q>.</p>
+      </div>
+      <div class="col">
+        <span>53. time</span>
+        <p>Está pensada para incluir en su atributo datetime la misma información que el texto (una fecha u hora), pero en un formato legible para máquinas.</p>
+        <p>La recomendación HTML 5 se aprobó el <time datetime="2014-10-28">28 de octubre de 2014</time>.</p>
+      </div>
+      <div class="col">
+        <span>54. u</span>
+        <p>Pensada para anotar expresiones, pero sin un significado preciso, ya que el significado se debe deducir del contexto.</p>
+        <p>¡<u>Hoygan</u>, necesito <u>alluda</u>!.</p>
+      </div>
+      <div class="col">
+        <span>55. code</span>
+        <p>Pensada para etiquetar fragmento de código de ordenador.</p>
+        <p>El primer programa que se enseña en un lenguaje de programación suele ser algo así como <code>main() { printf ("Hola, mundo"); }</code></p>
+      </div>
+      <div class="col">
+        <span>56. samp</span>
+        <p>Pensada para identificar un ejemplo de la salida de un programa o de un script.</p>
+        <p>Al ejecutar su primer programa, en la pantalla podrá leer <samp>Hola, mundo</samp>.</p>
+      </div>
+      <div class="col">
+        <span>57. var</span>
+        <p>Pensada para identificar una instancia de una variable o de un argumento de programa.</p>
+        <p><var>$saludo</var> = "Hola, que tal";</p>
+      </div>
+      <div class="col">
+        <span>58. bdo</span>
+        <p>Pensada para elegir la dirección del texto (de izquierda a derecha o de derecha a izquierda).</p>
+        <p><bdo dir="rtl">Esta frase está escrita al derecho, pero debería leerse al revés</bdo>.</p>
+      </div>
+      <div class="col">
+        <span>59. bdi</span>
+        <p>Aisla un trozo de texto para que pueda ser formateado con una dirección diferente al texto que hay fuera de él..</p>
+        <p dir="ltr">Esta palabara arábica<bdi>ARABIC_PLACEHOLDER</bdi> se muestra automáticamente de derecha a izquierda.</p>
+      </div>
+
+
+
+    </div>
+  </section>
+  <section class="banner p center" id="Listas">
+    <div class="titulo">
+      <h1 class="prevent-select">Listas</h1>
+    </div>
+    <div class="banner_cards">
+      <div class="banner_cards-item">
+          <span class="subt">60. ol</span>
+          <div class="banner_def">
+           <div class="banner_def-list">
+            <span>
+              Lista ordenada	
+            </span>
+              <ol>
+                <li>Uno</li>
+                <li>Dos</li>
+                <li>Tres</li>
+              </ol>
+           </div>
+          </div>
+      </div>
+      <div class="banner_cards-item">
+        <span class="subt">61. ul</span>
+        <div class="banner_def">
+          <div class="banner_def-list">
+            <span>
+              Lista no ordenada. Normalmente es la mas usada
+            </span>
+              <ul>
+                <li>Dos</li>
+                <li>Uno</li>
+                <li>Tres</li>
+              </ul>
+           </div>
+      </div>
+      </div>
+
+      <div class="banner_cards-item">
+        <span class="subt">62. menu</span>
+        <div class="banner_def">
+          <span>
+            equivalente a ul. Actualmente esta desaprobado
+          </span>
+        </div>
+      </div>
+      <div class="banner_cards-item">
+        <span class="subt">63. li</span>
+        <div class="banner_def">
+          <span>
+            elementos de una lista ya sea ordenada o no ordenada
+          </span>
+          <small>&lt;li&gt;elemento&lt;/li&gt;</small>
+        </div>
+      </div>
+      <div class="banner_cards-item">
+        <span class="subt">64. dl</span>
+        <div class="banner_def">
+          <span>
+            lista de definicion.  delimitan la lista completa
+          </span>
+        </div>
+      </div>
+      <div class="banner_cards-item">
+        <span class="subt">65. dt</span>
+        <div class="banner_def">
+          <span>
+            delimitan los términos
+          </span>
+        </div>
+      </div>
+      <div class="banner_cards-item">
+        <span class="subt">66. dd</span>
+        <div class="banner_def">
+          <span>
+            delimitan las definiciones.
+          </span>
+      </div>
+      </div>
+  </div>
+  </section>
+  <section class="definition p" style="background-color: #D4B4D9;" id="Tablas">
+    <div class="titulo">
+      <h1 style="color:#A3B5D9">Tablas</h1>
+    </div>
+      <div class="definition_col">
+        <h2>67. table</h2>
+      <span><br>Nos permmite crear una tabla.</span>
+    </div>
+    <div class="definition_col">
+      <h2>68. caption</h2>
+    <span><strong>Leyenda de una tabla</strong></span>
+  </div>
+  <div class="definition_col">
+    <h2>69. colgroup</h2>
+  <span>Grupo de columnas</span>
+</div>
+<div class="definition_col">
+  <h2>70. tbody</h2>
+<span>Cuerpo de la tabla</span><br>
+<span>(grupo de filas)</span>
+</div>
+<div class="definition_col">
+  <h2>71. thead</h2>
+<span>Cabecera de tabla</span><br>
+<span>(grupo de filas)</span><br>
+</div>
+<div class="definition_col">
+  <h2>72. tfoot</h2>
+<span><strong>Pie de la tabla</strong></span><br>
+  <span>(grupo de filas)</span>
+</div>
+<div class="definition_col">
+  <h2>73. tr</h2>
+<span><strong>Fila</strong> <br> <br></span>
+</div>
+<div class="definition_col">
+  <h2>74. td</h2>
+<span>Celda </span>
+</div>
+<div class="definition_col">
+  <h2>75. th</h2>
+<span>Celda cabecera</span>
+</div>
+<div class="definition_col">
+  <h2>76. col</h2>
+<span>Columna</span>
+</div>
+<div class="definition_col">
+  <h2 style="font-size: 3rem;">Ejemplo de una tabla, usando etiquetas enteriores</h2>
+  <a style="color: white; font-weight: bold; font-size: 1.3rem;" href="tabla.html" target="_blank">Clic en - Mi horario</a>
+</div>
+  </section>
+  <section class="formulario p" id="Formularios">
+    <div class="titulo">
+      <h1>Formularios</h1>
+    </div>
+    <div class="formulario_contenedor">
+      <h1>77. La etiqueta <b>form</b> nos permite crear un formulario</h1><br>
+      <h2> 78. La etiqueta <b>label</b> nos permite un mejor control con un texto, de manera que mejore la accesibilidad de los formularios. </h2>
+      <form class="form center p">
+        <div class="form_input">
+        <label>Escrito con label <input type="text" placeholder="Este es un input. Permite al usuario introducir informacion."></label>
+      </div>
+      <div class="form_input">
+        <select>
+          <option>79. Etiqueta <b>option</b></option>
+          <option>80. Complementa a <b>Select</b></option>
+          <option>Para poder mostrar</option>
+          <option>Un menu de opciones</option>
+        </select>
+      </div>
+      <div class="form_input">
+        <textarea cols="30" rows="10">81. La etiqueta textarea es un input mas grande. Permite escribir multi-lineas, algo diferente de los inputs normales</textarea>
+      </div>
+      <div class="form_input">
+        <label>82. <b>datalist</b></label><br>
+        <span>Similar al select/option, permite un menu con opciones f¿predefinidas aunque hoy dia no se utiliza.</span>
+      </div>
+      <div class="form_input">
+        <p>83. La etiqueta <b>progress</b> se utiliza para visualizar el progreso de una tarea.</p>
+        <progress max="100" value="80">80%</progress>
+      </div>
+      <div class="form_input">
+        <p>84. La etiqueta <b>meter</b> se utiliza para visualizar la escala de un rango cualquiera.</p>
+        <label for="disk_c">Uso de bateria:</label>
+        <meter value="6" min="0" max="10"></meter><br>
+      </div>
+      <div class="form_input">
+        <p>85. El elemento <b>legend</b> representa un título, nombre o etiqueta para un conjunto de controles, agrupados mediante el elemento fieldset .</p>
+        <legend>Esto fue escrito con la etiqueta legend</legend>
+      </div>
+      <div class="form_input">
+        <p>86. El elemento <b>fieldset</b> (grupo de campos) permite organizar en grupos los campos de un formulario.</p>
+        <fieldset>
+          <legend>Información Personal</legend>
+          Nombre: <input name='nombre' type='text' tabindex='1'>
+          Apellidos: <input name='apellidos' type='text' tabindex='2'>
+        </fieldset>
+      </div>
+      </form>
+    </div>
+  </section>
+  <section class="definition p" id="Otras">
+    <div class="titulo">
+      <span>Otras</span>
+      <h1>Etiquetas</h1>
+    </div>
+      <div class="definition_col">
+        <h2>87. details</h2>
+      <span>Permite mantener oculta una parte de la página web, que el usuario puede hacer visible u ocultar de nuevo haciendo clic en un icono con forma de triángulo.</span>
+    </div>
+    <div class="definition_col">
+      <h2>88. summary</h2>
+    <span>se incluye dentro de un elemento <b>details</b> y contiene la parte del contenido que está siempre visible y sobre la que también se puede hacer clic para mostrar el resto del contenido, como muestran los ejemplos del apartado anterior.</span>
+    <br>
+    <span>Ejemplo usando detail y summary</span><br>
+    <details>
+      <summary>Artistas</summary>
+      <p>BTS, Ariana Grande, Doja Cat, Christian Nodal...</p>
+    </details>
+  </div>
+  <div class="definition_col">
+    <h2>89. dialog</h2>
+  <span>Permite definir el contenido de una ventana de diálogo modal (independiente de la página web). Para mostrar la ventana, se debe establecer el atributo <b>open</b>.</span>
+  <dialog id="dialog">
+    <h1>Album musical favorito</h1>
+    <p>Love Yourself: Tear</p>
+    <br>
+    <h1>Color favorito</h1>
+    <p>Morado</p>
+    <br>
+    <h1>Postre favorito</h1>
+    <p>Brownies</p>
+    <p>
+      <input type="button" value="Cerrar" onclick="document.getElementById('dialog').removeAttribute('open')">
+    </p>
+  </dialog>
+  <p>
+    <input type="button" value="Clic aqui" onclick="document.getElementById('dialog').setAttribute('open', 'open')">
+  </p>
+</div>
+<div class="definition_col">
+  <h2>90. script</h2>
+<span>Se utiliza para incrustar código o datos ejecutables; generalmente se usa para incrustar o hacer referencia a código JavaScript.</span>
+</div>
+<div class="definition_col">
+  <h2>91. noscript</h2>
+<span>Se utiliza para avisar a usuarios de que tienen scripts deshabilitados en su navegador o tienen un navegador que no admite scripts.</span>
+<br><br>
+<span>Ejemplo usando script y noscript <br><br> Un navegador que no tenga script habilitados mostrara el mensaje de noscript.</span><br><br>
+<script>
+  document.write("Hola desde mi script!!")
+  </script>
+  <noscript>Tienes JavaScript deshabilitado!</noscript>
+</div>
+<div class="definition_col">
+  <h2>91. template</h2>
+<span>es un mecanismo para mantener el contenido HTML del lado del cliente que no se renderiza cuando se carga una página, pero que posteriormente puede ser instanciado durante el tiempo de ejecución empleando JavaScript.</span>
+</div>
+<div class="definition_col">
+  <h2>92. slot</h2>
+<span>El elemento HTML slot —parte de la suite tecnologica <b>Web Components</b> — es un placeholder en un componente que tu puedes llenar con tu propio marcado, que te permite crear árboles DOM por separado y presentarlos juntos.</span>
+</div>
+<div class="definition_col">
+  <h2>93. canvas</h2>
+<span>Canvas no es más que un lienzo en el que podremos dibujar lo que nos parezca, básicamente como si estuviésemos utilizando el Paint de Windows aunque eso si hay que decirle cada cosa que se quiera hacer mediante una instrucción.</span>
+</div>
+<div class="definition_col">
+  <h2>94. ruby</h2>
+<span>Provee los medios para aplicar anotaciones ruby a una línea de texto. Las anotaciones ruby son trozos cortos de texto que corren a la par del texto base y proveen algún tipo de ayuda para procesarlo. Son mayormente utilizadas en la tipografía asiática, pero pueden ser útiles para cualquier tipo de anotaciones.</span>
+<br><br>
+<span>Ejemplo</span><br><br>
+<ruby>
+ 漢 <rt> ㄏㄢˋ </rt>
+</ruby>
+</div>
+<div class="definition_col">
+  <h2>95. rt</h2>
+<span>El elemento rt provee una anotación ruby para todo el texto no anotado que lo precede dentro del elemento ruby en el cual se encuentra.</span>
+<br><br>
+<span>Ejemplo</span><br><br>
+<p><ruby>東<rp>(</rp><rt>とう</rt><rp>)</rp>京<rp>(</rp><rt>きょう</rt><rp>)</rp></ruby></p>
+</div>
+<div class="definition_col">
+  <h2>96. rp</h2>
+<span>El elemento rp provee los medios para ocurtar información en anotaciones ruby (ruby). El principal propósito de este elemento es el de hacer que ruby se más compatible, especialmente debido al soporte parcial provisto por los navegadores.</span>
+<br><br>
+<span>Ejemplo</span><br><br>
+<ruby>Texto base<rp> (</rp><rt>Anotación</rt><rp>)</rp></ruby>
+</div>
+<div class="definition_col">
+  <h2>97. base</h2>
+<span>El elemento vacío base contiene una URL (mediante un atributo href) que sirve de referencia para el resto de URLs enlazadas en el resto del documento. Este elemento no se suele utilizar apenas.</span>
+</div>
+<div class="definition_col">
+  <h2>98. hgroup</h2>
+<span>El elemento de grupo de cabeceras HTML (hgroup) representa el encabezado de una sección.</span>
+  <br><br>
+  <span>Ejemplo</span>
+  <hgroup>
+    <h1>Main title</h1>
+    <h2 style="font-size: 1.4rem;">Other title</h2>
+  </hgroup>
+</div>
+<div class="definition_col">
+  <h2>99. wbr</h2>
+<span>El elemento HTML word break opportunity wbr representa una posición dentro del texto donde el explorador puede opcionalmente saltar una línea , aunque sus reglas de salto de línea de otra manera no crearían un salto en esa posición.</span>
+</div>
+<div class="definition_col">
+  <h2>100. ins</h2>
+<span>La etiqueta ins está pensada para identificar el texto que se ha añadido a una página al revisarlo (si se quiere que se sepa que se ha añadido, claro).</span>
+<br><br>
+<span>Ejemplo</span>
+<br>
+<p>La verdad es que Microsoft podría haber mejorado antes su navegador<ins>, respetando las recomendaciones del W3C</ins>.</p>
+</div>
+<div class="definition_col">
+  <h2>101. del</h2>
+<span>La etiqueta del está pensada para identificar el texto que se ha eliminado de una página al revisarlo (si se quiere que se sepa que se ha eliminado, claro).</span>
+<br><br>
+<span>Ejemplo</span>
+<br>
+<p>Internet Explorer 6 era un navegador bastante <del>malo</del> mejorable. Internet Explorer 7 cumplía mejor las recomendaciones del W3C.</p>
+</div>
+<div class="definition_col">
+  <h2>102. optgroup </h2>
+<span>El elemento optgroup representa un grupo de opciones (option) temáticamente definido, que forma parte de un control select. Las opciones agrupadas pueden ser etiquetadas mediante el atributo label, que usarán los navegadores para mostrar como nombre del grupo.</span>
+<br><br>
+<span>Ejemplo</span>
+<br>
+<p>
+  Elija un color:
+<select>
+  <optgroup label="Verde">
+    <option>Morado</option>
+    <option>Amarillo</option>
+    <option>Rojo</option>
+  </optgroup>
+  </select>
+</p>
+</div>
+  </section>
+  <footer class="footer sp-btwn p">
+    <p>Fin del sitio</p>
+    <h3>Shadel Arvelo Mendez</h3>
+    <span>100527174</span>
+  </footer>
+</body>
+</html>
